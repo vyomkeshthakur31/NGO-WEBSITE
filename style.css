@@ -1,0 +1,132 @@
+
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.top{
+    
+    height: 60px;
+    font-size: 16px;
+}
+
+.bs-example{
+    z-index:999;
+    
+}
+
+#carouselExample .carousel-item{
+    height: 100vh;
+    width: 100%;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+#carouselExample .carousel-item .caption{
+    background: rgba(64, 235, 192, 0.575);
+    border-radius: 15px;
+    padding: 40px;
+    color: white;
+    font-family:'Russo One', sans-serif;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-name: initial;
+}
+
+#carouselExample .caption h2{
+    animation-duration: 1s;
+    animation-delay: 2s;
+
+}
+
+#carouselExample .caption p{
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+
+}
+
+#carouselExample .caption a{
+    animation-duration:1s;
+    animation-delay: 2.5s
+}
+
+.delicious-btn{
+    display: inline-block;
+    min-width: 160px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    background: rgba(226, 60, 60, 0.767)
+}
+
+.aboutText{
+    font-size: larger;
+    word-wrap: break-word;
+}
+
+.aboutus{
+       
+        border-bottom:5px solid red;
+        padding-bottom:0.5em;
+        display:table; 
+        margin:1em auto;
+        
+}
+
+.events{
+    border-bottom: 5px solid red;
+    padding-bottom: 0.5em;
+    display: table;
+    margin: 1em auto;
+}
+
+.gallery{
+    border-bottom: 5px solid red;
+    padding-bottom: 0.5em;
+    display: table;
+    margin: 1em auto;
+}
+.contact{
+    border-bottom: 5px solid red;
+    padding-bottom: 0.5em;
+    display: table;
+    margin: 1em auto;
+}
+.card-title{
+    background: linear-gradient(to left, rgba(39, 198, 219, 0.76), rgba(224, 56, 140, 0.637));
+    border-radius: 10px;
+}
+
+.card-img{
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.info-wrap {
+    box-shadow: 0px 2px 15px rgba(219, 228, 226, 0.781);
+    padding: 30px;
+}
+.info i{
+    font-size: 20px;
+    color: #299da0;
+    float: left;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #299da0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.php-email-form{
+    box-shadow: 0px 2px 15px rgba(219, 228, 226, 0.781);
+    padding: 30px;
+}
+  
